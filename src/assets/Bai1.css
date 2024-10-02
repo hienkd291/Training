@@ -1,0 +1,51 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: chocolate;
+}
+
+.Bai5 {
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 60vh;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.Bai5 button {
+    background-color: chocolate;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.Bai5 button:hover {
+    transform: scale(1.2);
+}
+
+.Bai5 p {
+    font-weight: bold;
+}
+
+.Bai5 input {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.Bai5 span {
+    margin: 0 10px;
+}
